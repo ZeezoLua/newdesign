@@ -28,7 +28,7 @@ function Navbar() {
                   isScrolled ? "bg-emerald-700/60 shadow-md" : "bg-emerald-700"
                 }`}
             >
-                <div className="container mx-auto flex justify-between items-center">
+                <div className="w-full flex justify-between items-center px-12">
                     <div className="text-white text-lg font-bold">My Website</div>
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-4">

@@ -8,7 +8,7 @@ export default function Home() {
         Hello world!
       </h1>
       <p className="text-lg px-12">
-        This is a simple Next.js app with Tailwind CSS.
+        Lorem, ipsum.
       </p>
     </>
   );
