@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@layer components {
+  .link {
+    color: #dedede;
+  }
+  .link:hover {
+    color: #ffffff;
+    text-decoration: wavy underline;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #1e1e1e;
