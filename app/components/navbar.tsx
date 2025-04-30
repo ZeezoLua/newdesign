@@ -32,10 +32,10 @@ function Navbar() {
                     <div className="text-white text-lg font-bold">My Website</div>
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-4">
-                        <li><a href="#" className="link transition-all duration-500 text-white">Home</a></li>
-                        <li><a href="#" className="link transition-all duration-500 text-white">About</a></li>
-                        <li><a href="#" className="link transition-all duration-500 text-white">Services</a></li>
-                        <li><a href="#" className="link transition-all duration-500 text-white">Contact</a></li>
+                        <li><a href="#" className="link transition-all duration-500">Home</a></li>
+                        <li><a href="#cards" className="link transition-all duration-500">About</a></li>
+                        <li><a href="#" className="link transition-all duration-500">Services</a></li>
+                        <li><a href="#" className="link transition-all duration-500">Contact</a></li>
                     </ul>
                     {/* Hamburger Icon */}
                     <div className="flex md:hidden justify-center items-center z-50" onClick={toggleMenu}>

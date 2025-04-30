@@ -16,15 +16,16 @@ export default function Home() {
     <>
       <section className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow px-12 mt-20">
-          <h1 className="text-3xl font-bold">
+        <main className="animate__animated animate__fadeInLeft flex-grow px-12 mt-30">
+          <h1 id='home' className="text-3xl font-bold">
             Hello world!
           </h1>
           <p className="text-lg mt-4">
             This is a test / showcase of my pro powers on Next.JS and React + Tailwind
           </p>
+          <img className='my-4 rounded-md shadow-2xl border-white/25 border-1' src="https://picsum.photos/500/250" alt="" />
         </main>
-        <div className="px-12 mb-8">
+        <div id='cards' className="px-12 mb-8">
           <Divider text="Cards" />
         </div>
       </section>
